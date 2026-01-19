@@ -10,7 +10,7 @@ function Header() {
   return (
     <>
     <ul className="flex justify-center gap-5 bg-[#f85606] text-[#FFF] text-[18px] py-5">
-      <Link to="#"><img className="w-[50%] cursor-pointer" src="src/assets/lgo.png" alt="" /></Link>
+      <Link to="/"><img className="w-[50%] cursor-pointer" src="src/assets/lgo.png" alt="" /></Link>
       <button onClick={() => setShowLogin(true)} className="cursor-pointer">Login</button>
       <button onClick={() => setShowSignup(true)} className="cursor-pointer">Sign Up</button>
     </ul>
